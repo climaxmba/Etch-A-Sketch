@@ -4,4 +4,4 @@ This is the project __Etch-A-Sketch__ from [TheOdinProject](https://www.theodinp
 
 ## View online
 
-Please click [here](https://github.com/climaxmba/Etch-A-Sketch) to view the demo.
+Please click [here](https://climaxmba.github.io/Etch-A-Sketch/) to view the demo.
