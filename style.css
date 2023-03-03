@@ -6,6 +6,17 @@ body {
     align-items: center;
 }
 
+button {
+    margin: 8px;
+    padding: 6px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+button:active {
+    padding: 6.5px;
+}
+
 #container {
     display: grid;
     height: auto;
