@@ -1,10 +1,8 @@
-// Select container
 const container = document.getElementById('container');
 
-// Loop to create required amount of grids
 let dim = 16;
-for (let i = 0; i < dim; i++) {
-    container.innerHTML += '<div class="grid-items"></div>';
+for (let i = 1; i <= dim * dim; i++) {
+    container.innerHTML += `<div class="grid-items">${i}</div>`;
 }
 
 // Add grids to container
