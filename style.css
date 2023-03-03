@@ -1,5 +1,16 @@
-.grid-items {
-    padding: 24px;
-    margin: 8px;
-    background-color: gray;
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: grid;
+    height: auto;
+    grid-auto-rows: auto;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
 }
