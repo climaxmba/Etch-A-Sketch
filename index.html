@@ -5,14 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Etch A Sketch</title>
 </head>
 <body>
-    <h1>Etch A Sketch</h1>
+    <header>Etch A Sketch</header>
+    <div id="main">
+        <div id="settings">
+            <p>Grids: 16 by 16</p>
+            <button>Change dimension</button>
 
-    <button>Change dimension</button>
-    
-    <div id="container"></div>
+            <p>Set color</p>
+            <select id="color-mode">
+                <option value="hsl(0, 100%, 0%)" selected>Black</option>
+                <option value="hsl(0, 100%, 50%)">Red</option>
+                <option value="hsl(240, 100%, 50%)">Blue</option>
+                <option value="hsl(120, 100%, 50%)">Green</option>
+                <option value="random">Random</option>
+            </select>
+
+            <p>Toggle Eraser</p>
+            <button id="eraser-btn">Off</button>
+
+            <button id="clear-btn">Clear</button>
+        </div>
+
+        <div id="container"></div>
+    </div>
     <script src="script.js"></script>
 </body>
+
 </html>

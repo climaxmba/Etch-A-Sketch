@@ -4,17 +4,51 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', sans-serif;
+    background-color: #354e4c;
+    color: white;
+}
+
+#main {
+    display: flex;
+    text-align: center;
+    text-align: left;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+header {
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 18px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+select {
+    padding: 12px;
+    margin: 8px 0;
+}
+
+option {
+    padding: inherit;
+    font-size: medium;
 }
 
 button {
-    margin: 8px;
+    font-size: medium;
+    margin: 8px 0;
     padding: 6px;
     border-radius: 3px;
-    border: 1px solid black;
+    border: none;
 }
 
 button:active {
-    padding: 6.5px;
+    background-color: #354e4c;
+    color: white;
 }
 
 #container {
@@ -23,5 +57,6 @@ button:active {
     grid-auto-rows: auto;
     width: 500px;
     height: 500px;
-    border: 1px solid black;
+    background-color: white;
+    box-shadow: 6px 6px 8px #303030;
 }
